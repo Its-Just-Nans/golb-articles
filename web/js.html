@@ -1,0 +1,22 @@
+A simple html with javascript file included in golb
+<br />
+<br />
+<div>
+    <span>Click to reavel the truth:</span>
+    <span title="click me to eval" onclick="this.innerHTML = eval(this.innerHTML)"
+        >"golb".split("").reverse().join("")</span
+    >
+</div>
+<br />
+<br />
+<br />
+
+<p>Here is some dynamic ! Used to demostrate the javascript usage in golb</p>
+<p id="a"></p>
+<script>
+    let a = 0;
+    setInterval(() => {
+        document.getElementById("a").innerHTML = a;
+        a++;
+    }, 1000);
+</script>
