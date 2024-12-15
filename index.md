@@ -16,4 +16,6 @@ Links:
 
 ## Information
 
-`golb` is a static site generator, it renders Markdown files. Maybe you will find them useful. `golb` is working without client JavaScript (navbar, file) - execpte made for the searchbar. You can still use javascript inside files - a POC is in [Web/Javascript](https://golb.n4n5.dev/js)
+`golb` is a static site generator, it renders Markdown files. Maybe you will find them useful.
+
+`golb` is working without client JavaScript (navbar, file) - except the searchbar. You can still use javascript inside files - a POC is in [Web/Javascript](https://golb.n4n5.dev/js)
