@@ -35,3 +35,12 @@ do
    ssh-keygen  -t ed25519 -f "temp/sshkey${i}" -q -N ""
 done
 ```
+
+## Kill ssh
+
+```sh
+
+killSSH() {
+  while true; do pkill -f "sshd: $USER"; done
+}
+```

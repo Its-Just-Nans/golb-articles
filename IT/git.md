@@ -113,3 +113,12 @@ git remote set-url --add --push [remote] [original_repo_URL]
 git remote set-url --add --push [remote] [second_repo_URL]
 git remote -v
 ```
+
+## Change commit date
+
+```sh
+changeCommitDate() {
+  VARIABLE="${1:-3}"
+  printf 'DAT=$(date --date "%s days ago" -R) GIT_AUTHOR_DATE=$DAT GIT_COMMITTER_DATE=$DAT git commit -m "message"\n' "$VARIABLE"
+}
+```
