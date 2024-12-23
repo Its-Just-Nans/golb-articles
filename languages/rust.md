@@ -15,6 +15,7 @@
 - <https://github.com/johnthagen/min-sized-rust>
 - <https://doc.rust-lang.org/nightly/nomicon/>
 - <https://marabos.nl/atomics/>
+- <https://docs.rs/releases/queue> - docs.rs build queue
 
 ## Useful commands
 
