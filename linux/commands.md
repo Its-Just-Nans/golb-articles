@@ -15,7 +15,7 @@ ls # with a trailing space -> not in history
 disown -a && exit # leave terminal but don't kill running processes
 ```
 
-## Basic commmands
+## Basic commands
 
 ### create a file
 

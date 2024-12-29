@@ -16,7 +16,7 @@ nano /etc/ssh/sshd_config
 # change the config, for example
 # Port 2233
 
-# restart sshd deamon
+# restart sshd daemon
 systemctl restart sshd
 
 # check if port is applied :

@@ -97,7 +97,7 @@ screen
 # list screens shell
 screen -ls
 
-# resume screnn shell
+# resume screen shell
 screen -r <screen_id>
 ```
 

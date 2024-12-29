@@ -60,7 +60,7 @@ Conf example
 
 ## webook package
 
-The [webhook package](https://github.com/adnanh/webhook) is a useful utility package which create a server listenning on 9000 and allow you to create responses to webhook.
+The [webhook package](https://github.com/adnanh/webhook) is a useful utility package which create a server listening on 9000 and allow you to create responses to webhook.
 
 Useful commandes for the package
 
