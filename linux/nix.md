@@ -32,3 +32,17 @@ nix-store --gc
 ```sh
 nix-env --query
 ```
+
+## Apparmor with nix
+
+```sh
+sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=1
+sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=1
+
+# And if you want to disable it, run the following two commands:
+
+sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
+sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+```
+
+> <https://ubuntu.com/blog/ubuntu-23-10-restricted-unprivileged-user-namespaces>
