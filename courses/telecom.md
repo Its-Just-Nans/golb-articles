@@ -299,3 +299,4 @@ _**Q**uadrature **A**mplitude **M**odulation_ (en français MAQ - modulation d'a
 ## Links
 
 - [https://radars-darricau.fr/livre/1-Pages/Sommaire.html](https://radars-darricau.fr/livre/1-Pages/Sommaire.html) - Radar resource
+- [https://passiontelecom.fr/category/cours-telecom/](https://passiontelecom.fr/category/cours-telecom/)
