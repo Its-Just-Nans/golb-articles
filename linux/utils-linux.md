@@ -33,6 +33,9 @@ df -Th
 ## Change partition
 
 ```sh
+# list partitions
+fdisk -l
+
 fdisk /dev/sdx
 
 # touch d for delete partition
