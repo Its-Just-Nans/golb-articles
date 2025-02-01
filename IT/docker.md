@@ -57,3 +57,7 @@ to force nginx to run in foreground (and not in background)
 ```sh
 docker system prune -a --volumes
 ```
+
+## Links
+
+- [https://www.i3s.unice.fr/~urvoy/docs/VICC/3_vicc.pdf](https://www.i3s.unice.fr/~urvoy/docs/VICC/3_vicc.pdf)

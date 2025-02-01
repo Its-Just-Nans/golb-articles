@@ -57,3 +57,6 @@ Tout sous-réseau d'un réseau peut être remplacé par un générateur de coura
 ## Electricity pic
 
 ![Electricity](./data/elec.jpg)
+
+- [http://ahistace.chez-alice.fr/documents/Chapitre1Fondamentaux.pdf](http://ahistace.chez-alice.fr/documents/Chapitre1Fondamentaux.pdf)
+- [http://digital.r2.enst.fr/](http://digital.r2.enst.fr/) - ELECINF simulator

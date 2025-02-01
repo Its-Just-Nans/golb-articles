@@ -3,6 +3,9 @@
 ## Links
 
 - [https://cspotcode.com/posts/polyglot-powershell-and-bash-script](https://cspotcode.com/posts/polyglot-powershell-and-bash-script)
+- [http://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf](http://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf) - cours système
+- [https://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf](https://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf)
+- [https://perso.telecom-paristech.fr/apvrille/](https://perso.telecom-paristech.fr/apvrille/)
 
 ## Learn multiplications
 

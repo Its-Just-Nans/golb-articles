@@ -15,9 +15,9 @@
 
 - [https://www.mathraining.be/](https://www.mathraining.be/)
 - [https://www.euclideanspace.com/](https://www.euclideanspace.com/)
-
-## Courses
-
+- [http://ddmaths.free.fr/niv2.html](http://ddmaths.free.fr/niv2.html) - Math exercises
+- [http://jgaltier.free.fr/liens.htm](http://jgaltier.free.fr/liens.htm) - Additional math resources
+- [http://perso.eleves.ens-rennes.fr/~tpier758/cours.html](http://perso.eleves.ens-rennes.fr/~tpier758/cours.html) - Clean math courses
 - [https://www.math.univ-paris13.fr/~borello/teaching](https://www.math.univ-paris13.fr/~borello/teaching)
 
 ## Quelques notations mathématiques
