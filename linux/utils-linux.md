@@ -33,7 +33,7 @@ df -Th
 ## Change partition
 
 ```sh
-fdisk /dev/sda
+fdisk /dev/sdx
 
 # touch d for delete partition
 
@@ -43,13 +43,13 @@ fdisk /dev/sda
 ## Format partition
 
 ```sh
-mkfs.vfat /dev/sda1
+mkfs.vfat /dev/sdx1
 ```
 
 ## Use dd to copy an ISO
 
 ```sh
-dd if=file.iso of=/dev/sda bs=1M status=progress
+dd if=file.iso of=/dev/sdx bs=1M status=progress
 ```
 
 > Legend :
