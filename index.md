@@ -14,6 +14,8 @@ Links:
 - <https://golb.n4n5.dev/> website
 - <https://github.com/Its-Just-Nans/golb> repo
 
+Also some articles are moved to <https://n4n5.dev/articles/>
+
 ## Information
 
 `golb` is a static site generator, it renders Markdown files. Maybe you will find them useful.

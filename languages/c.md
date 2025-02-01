@@ -50,12 +50,12 @@ Le résultat :
 
 ## Compilation
 
-|         Entrée            |                Nom                       |                Sortie             |
-|:-------------------------:|:----------------------------------------:|:---------------------------------:|
-|            `.c`           |                 Préprocesseur            |                  `.i`             |
-|            `.i`           |                 Compilateur              |                  `.s`             |
-|            `.s`           |                 Assembleur               |                  `.o`             |
-|            `.o`           |                 Éditeur de lien          |                  `.out`           |
+| Entrée |       Nom       | Sortie |
+| :----: | :-------------: | :----: |
+|  `.c`  |  Préprocesseur  |  `.i`  |
+|  `.i`  |   Compilateur   |  `.s`  |
+|  `.s`  |   Assembleur    |  `.o`  |
+|  `.o`  | Éditeur de lien | `.out` |
 
 ---
 
@@ -102,11 +102,6 @@ int main(int argc, char *argv[]){
 - `-c` : Créer des fichiers objets
 
 - `-fno-builtin` : Don't recognize built-in functions that do not begin with __builtin_ as prefix. (see below)
-
-## Why is C Compiler So Smart?
-
-- [https://www.youtube.com/watch?v=juWM6saNCZk](https://www.youtube.com/watch?v=juWM6saNCZk)
-- [https://godbolt.org/](https://godbolt.org/)
 
 ## Note
 
