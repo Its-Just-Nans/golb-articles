@@ -27,3 +27,18 @@ sudo apt install gvfs-backends
     ```
 
 - Compare the hash with the one from the browser
+
+- Now the public key (which is inside the certificate)
+- Extract the public key from the certificate
+
+    ```sh
+    openssl x509 -in certificate.der -pubkey -noout | openssl enc -base64 -d > publickey.der
+    ```
+
+- Run sha256sum on the public key
+
+    ```sh
+    sha256sum publickey.der
+    ```
+
+- Compare the hash with the one from the browser
