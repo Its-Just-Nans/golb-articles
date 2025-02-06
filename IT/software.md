@@ -9,3 +9,21 @@ Subtitle delay shortcut: `g` and `h`
 ```sh
 sudo apt install gvfs-backends
 ```
+
+## Manually get the fingerprint of a certificate from a browser
+
+- Download the certificate from the browser
+- The certificate is in PEM format, a human readable format but also sometimes with CLRF line endings
+- Convert the certificate to a DER format (binary)
+
+    ```sh
+    openssl x509 -in certificate.pem -out certificate.der -outform DER
+    ```
+
+- Run sha256sum on the DER file
+
+    ```sh
+    sha256sum certificate.der
+    ```
+
+- Compare the hash with the one from the browser
