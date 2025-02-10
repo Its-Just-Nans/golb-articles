@@ -62,7 +62,7 @@ Conf example
 
 The [webhook package](https://github.com/adnanh/webhook) is a useful utility package which create a server listening on 9000 and allow you to create responses to webhook.
 
-Useful commandes for the package
+Useful commands for the package
 
 ```sh
 # edit the default conf file, can be yaml or json

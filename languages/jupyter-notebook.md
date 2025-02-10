@@ -31,10 +31,10 @@ Red box - danger
 
 ```python
 def answer(*args):
-    FORGROUND='\x1b[30m' # green
+    FOREGROUND='\x1b[30m' # green
     BACKGROUND='\x1b[42m'# green
     DEFAULT = '\x1b[39m' # reset color
-    print(BACKGROUND + FORGROUND, *args, DEFAULT)
+    print(BACKGROUND + FOREGROUND, *args, DEFAULT)
 ```
 
 ## Exporting notebook

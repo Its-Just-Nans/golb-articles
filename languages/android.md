@@ -31,7 +31,7 @@ yes | $SDKMANAGER --licenses
 
 $SDKMANAGER --list
 $SDKMANAGER tools platform-tools
-# installe correct version
+# install correct version
 $SDKMANAGER 'platforms;android-10'
 $SDKMANAGER 'build-tools;28.0.3'
 $SDKMANAGER "system-images;android-29;default;x86"

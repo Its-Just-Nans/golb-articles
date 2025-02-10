@@ -13,7 +13,7 @@ sudo apt install gvfs-backends
 ## Manually get the fingerprint of a certificate from a browser
 
 - Download the certificate from the browser
-- The certificate is in PEM format, a human readable format but also sometimes with CLRF line endings
+- The certificate is in PEM format, a human readable format (base64) but also sometimes with CRLF line endings
 - Convert the certificate to a DER format (binary)
 
     ```sh

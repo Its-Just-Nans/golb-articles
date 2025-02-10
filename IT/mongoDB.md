@@ -1,12 +1,12 @@
 # Mongo Config on Windows
 
-These commandes are for Windows user
+These commands are for Windows user
 
 - [Documentation](https://docs.mongodb.com/manual/reference/configuration-options/)
 
 If you want to change the moogoDB config, for example, the `bindIp`
 
-## Stop the deamon
+## Stop the daemon
 
 ```powershell
 net stop mongodb
@@ -26,7 +26,7 @@ Remember it's a YAML file, so you need to produce a correct file
 
 You need to have admin rights to change the config file
 
-## Start the mongoDB deamon
+## Start the mongoDB daemon
 
 ```powershell
 net start mongodb

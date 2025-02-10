@@ -52,7 +52,7 @@ ffmpeg -ss 00:01:00 -i input.mp4 -t 00:02:00 -c copy OUTPUT_NAME.mp4
 
 ● Format a video for Da Vinci Resolve for Linux
 
-- On linux, Da Vinci resolve can't use proprietary library, so you need to convert your file, for exemple in `DNxHD`:
+- On linux, Da Vinci resolve can't use proprietary library, so you need to convert your file, for example in `DNxHD`:
 
 ```sh
 ffmpeg -i input.mkv -c:v dnxhd -b:v 185M -c:a pcm_s16le output.mov
