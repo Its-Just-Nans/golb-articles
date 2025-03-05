@@ -67,3 +67,11 @@ exiftool -d '%Y-%m-%d_%H-%M%-S%%-c.%%e' '-filename<CreateDate' .
 ```
 
 > Reference <https://blog.wxm.be/2024/07/26/exiftool-rename-from-date.html>
+
+## Convert jpg to png with background
+
+```sh
+convert image.png -background white -flatten -alpha off image.jpg
+```
+
+> Reference <https://stackoverflow.com/a/5280262>
