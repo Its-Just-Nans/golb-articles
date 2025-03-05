@@ -67,3 +67,11 @@ ffmpeg -i input.mp4 -c:v prores_ks -profile:v 3 -vendor apl0 -bits_per_mb 8000 -
 ```
 
 > - from [https://ottverse.com/ffmpeg-convert-to-apple-prores-422-4444-hq/](https://ottverse.com/ffmpeg-convert-to-apple-prores-422-4444-hq/)
+
+### Extract audio from video
+
+```sh
+ffmpeg -i input.mp4 -vn -acodec copy output-audio.mp3
+```
+
+> - from <https://stackoverflow.com/a/27413824>
