@@ -15,18 +15,26 @@ systemctl start $SERVICE
 journalctl -u $SERVICE -f
 ```
 
-## tar && zip
+## zip && unzip
+
+```sh
+# create
+zip -r archivename.zip directory
+
+# extract
+unzip archivename.zip -d extracted
+```
+
+## tar && untar
 
 ```sh
 # create
 # -c create -v verbose -z gzip -f archivename
 tar -cvzf archive.tar.gz directory
-zip -r archivename.zip directory
 
 # extract
 # -x extract -v verbose -f archivename -C directory
 tar -xvf archive.tar.gz -C extracted
-unzip archivename.zip -d extracted
 ```
 
 ## Swap
