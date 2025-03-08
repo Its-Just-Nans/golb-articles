@@ -17,7 +17,7 @@ apt install virt-manager # nice GUI
 EDITOR=nano sudo virsh edit --domain vm_name
 
 # resize the disk
-sudo qemu-img resize /opt/VMs/vm.qcow2 +20G
+sudo qemu-img resize /path/to/vm.qcow2 +20G
 
 # then inside the VM
 fdisk /dev/vda
