@@ -39,6 +39,12 @@ su -
 
 Reference : [manpages.debian](https://manpages.debian.org/stretch/login/su.1.fr.html)
 
+Add a user to sudoers
+
+```sh
+sudo adduser USERNAME sudo
+```
+
 ## nginx configuration
 
 Useful commands

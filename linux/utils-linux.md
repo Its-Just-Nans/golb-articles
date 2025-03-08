@@ -131,16 +131,6 @@ slock
 aspell -l en -c file.txt
 ```
 
-## qemu
-
-- [https://wiki.debian.org/KVM](https://wiki.debian.org/KVM)
-
-```sh
-apt install qemu-system libvirt-daemon-system
-adduser $USER libvirt
-apt install virt-manager # nice GUI
-```
-
 ## Utils
 
 ```sh
