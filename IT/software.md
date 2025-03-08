@@ -42,3 +42,9 @@ sudo apt install gvfs-backends
     ```
 
 - Compare the hash with the one from the browser
+
+## Locales
+
+```sh
+apt install console-data
+```

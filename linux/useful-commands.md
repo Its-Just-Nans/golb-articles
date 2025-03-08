@@ -83,3 +83,13 @@ convert image.png -background white -flatten -alpha off image.jpg
 ```
 
 > Reference <https://stackoverflow.com/a/5280262>
+
+## dust
+
+```sh
+cargo install du-dust
+
+dust
+# or
+du -d 1 -h | sort -h
+```
