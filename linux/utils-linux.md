@@ -1,11 +1,14 @@
 # Linux utils
 
+<!-- multiples commands per paragraph -->
+
 ## Links
 
 - [https://cspotcode.com/posts/polyglot-powershell-and-bash-script](https://cspotcode.com/posts/polyglot-powershell-and-bash-script)
 - [http://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf](http://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf) - cours système
 - [https://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf](https://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf)
 - [https://perso.telecom-paristech.fr/apvrille/](https://perso.telecom-paristech.fr/apvrille/)
+- Cron helper <https://crontab.guru/>
 
 ## Learn multiplications
 
@@ -18,17 +21,6 @@ for i in {5..7}; do  for e in {5..7}; do echo "$i*$e=$(bc<<<$i*$e)" | spd-say -e
 ```sh
 watch -n 10 'mycommand && spd-say done || echo "no"'
 ```
-
-## Know type of partition
-
-```sh
-df -Th
-```
-
-> Legend :
->
-> - `-T` : `--print-type`
-> - `-h` : `--human-readable`
 
 ## Change partition
 
@@ -58,7 +50,7 @@ dd if=file.iso of=/dev/sdx bs=1M status=progress
 > Legend :
 >
 > - `if` : input file
-> - `of` : output file
+> - `of` : output file here `/dev/sdx`
 > - `bs` : block size
 
 ## Copy file to clipboard
@@ -89,29 +81,6 @@ export PAGER=less
 cat a | while read f; do curl -L -b 'cookie=value' -O -J "${f}"; done
 ```
 
-## Cron helper
-
-- [https://crontab.guru/](https://crontab.guru/)
-
-## screen command
-
-```sh
-# start new "infinite" shell - read the manual for more info
-# CTRL + A then "D" to leave
-screen
-
-# list screens shell
-screen -ls
-
-# resume screen shell
-screen -r <screen_id>
-```
-
-Alternatives:
-
-- [https://www.byobu.org/](https://www.byobu.org/)
-- [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-
 ## iftop
 
 ```sh
@@ -122,6 +91,7 @@ sudo iftop -s wlp0
 ## slock
 
 ```sh
+# lock your screen
 slock
 ```
 
@@ -141,16 +111,81 @@ cat /proc/net/fib_trie
 cat /proc/net/tcp
 ```
 
-## ngrok alternative
+## Using `su` on Linux (Debian)
 
-- [https://ngrok.com/](https://ngrok.com/)
-- [https://localtunnel.github.io/www/](https://localtunnel.github.io/www/)
+The `su` command allows you to switch users for the duration of a session (after entering the password, if there is one). To use it, type:
 
 ```sh
-# ngrock (need install)
-ngrok http 80
-
-# localtunnel package (npx of bunx)
-npx localtunnel --port 8000
-bunx localtunnel --port 8000
+su USERNAME
 ```
+
+You can also use it to become root simply by typing:
+
+```sh
+su
+```
+
+To become a superuser on Linux, you can use the su command. However, sometimes this is not enough, and you still won't have the proper permissions. This is normal — you haven't loaded the superuser's environment variables.
+
+To fix this, simply run:
+
+```sh
+su -l
+# or
+su -
+```
+
+> <https://manpages.debian.org/stretch/login/su.1.fr.html>
+
+Add a user to sudoers
+
+```sh
+sudo adduser USERNAME sudo
+```
+
+## Swap
+
+```sh
+# Turn swap off
+sudo swapoff -a
+
+# Create an empty swapfile 10GB
+sudo dd if=/dev/zero of=/swapfile bs=1G count=10
+
+sudo chmod 0600 /swapfile
+sudo mkswap /swapfile  # Set up a Linux swap area
+sudo swapon /swapfile  # Turn the swap on
+```
+
+> <https://askubuntu.com/a/1177939>
+
+## One-liner favicon.ico generator
+
+```sh
+TO_ICONIFY=IMAGE.png
+for i in 48 96 144 192; do convert $TO_ICONIFY -resize ${i}x${i} favicon-${i}x${i}.png; done; convert favicon-* favicon.ico
+```
+
+## txt to pdf
+
+```sh
+apt install paps
+
+paps file.txt | ps2pdf - file.pdf
+```
+
+## exiftool rename
+
+```sh
+exiftool -d '%Y-%m-%d_%H-%M%-S%%-c.%%e' '-filename<CreateDate' .
+```
+
+> Reference <https://blog.wxm.be/2024/07/26/exiftool-rename-from-date.html>
+
+## Convert jpg to png with background
+
+```sh
+convert image.png -background white -flatten -alpha off image.jpg
+```
+
+> Reference <https://stackoverflow.com/a/5280262>

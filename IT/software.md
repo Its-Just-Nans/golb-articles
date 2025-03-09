@@ -1,5 +1,7 @@
 # Software
 
+<!-- commands related to specific 'no-default' package -->
+
 ## VLC
 
 Subtitle delay shortcut: `g` and `h`
@@ -47,4 +49,69 @@ sudo apt install gvfs-backends
 
 ```sh
 apt install console-data
+```
+
+## Remove noise sound when Jack is connected but there is no music
+
+- this is caused by a `power_save` setting, so we need to disable it
+
+```sh
+sudo su
+echo 0 > /sys/module/snd_hda_intel/parameters/power_save
+echo "options snd_hda_intel power_save=0" | sudo tee -a /etc/modprobe.d/audio_disable_powersave.conf # make it persit
+```
+
+> - Reference : [https://askubuntu.com/a/1230834](https://askubuntu.com/a/1230834)
+
+## nginx configuration
+
+Useful commands
+
+```sh
+# check nginx config before restart
+nginx -t
+server nginx restart
+```
+
+Conf example
+
+```conf
+  merge_slashes off; # useful for a reverse proxy
+  location / {
+      proxy_pass          http://localhost:4200/;
+  }
+```
+
+## webook package
+
+The [webhook package](https://github.com/adnanh/webhook) is a useful utility package which create a server listening on 9000 and allow you to create responses to webhook.
+
+Useful commands for the package
+
+```sh
+# edit the default conf file, can be yaml or json
+nano /etc/webhook.conf
+
+# to debug
+# edit the service file
+nano /etc/systemd/system/multi-user.target.wants/webhook.service
+# add -verbose to ExecStart
+# restart
+systemctl restart webhook
+# get verbose output
+systemctl status webhook
+```
+
+## ngrok alternative
+
+- [https://ngrok.com/](https://ngrok.com/)
+- [https://localtunnel.github.io/www/](https://localtunnel.github.io/www/)
+
+```sh
+# ngrock (need install)
+ngrok http 80
+
+# localtunnel package (npx of bunx)
+npx localtunnel --port 8000
+bunx localtunnel --port 8000
 ```

@@ -1,19 +1,9 @@
-# Useful commands on Linux
+# Commands
+
+<!-- One command per paragraph -->
 
 - [https://github.com/you-dont-need/You-Dont-Need-GUI](https://github.com/you-dont-need/You-Dont-Need-GUI)
 - [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
-
-## Cool commands
-
-```sh
-!! # last command
-sudo !! # last command as root
-
-mkdir -p /mnt/ram; mount -t tmpfs tmpfs /mnt/ram -o size=4096M # create a ram disk
-
-ls # with a trailing space -> not in history
-disown -a && exit # leave terminal but don't kill running processes
-```
 
 ## Basic commands
 
@@ -54,8 +44,6 @@ comm
 ### compression
 
 ```sh
-zip
-# zip ARCHIVE.zip FILE
 gzip
 gunzip
 # gzip FILE
@@ -66,7 +54,7 @@ bzip2
 ### get information about a file
 
 ```sh
-file
+file <file>
 # file temp.txt
 ```
 
@@ -97,7 +85,7 @@ paste
 umask
 ```
 
-## Redirection
+### Redirection
 
 ```sh
 # override to FILE
@@ -123,7 +111,7 @@ cmd < FILE
 cmd <<< "string"
 ```
 
-### Pipes
+### Pipe
 
 ```sh
 CMD_1 | CMD_2
@@ -137,7 +125,7 @@ CMD_1 ; CMD_2 ; CMD_3
 
 ### Background task
 
-```sg
+```sh
 CMD &
 ```
 
@@ -171,6 +159,18 @@ ssh
 ftp
 ```
 
+## Cool commands
+
+```sh
+!! # last command
+sudo !! # last command as root
+
+mkdir -p /mnt/ram; mount -t tmpfs tmpfs /mnt/ram -o size=4096M # create a ram disk
+
+ ls # with a trailing space -> not in history
+disown -a && exit # leave terminal but don't kill running processes
+```
+
 ## Switch between background and foreground
 
 ```sh
@@ -179,3 +179,83 @@ fg # change to foreground
 # pause with CTRL+Z
 bg # sent it to background
 ```
+
+## tar && untar
+
+```sh
+# create
+# -c create -v verbose -z gzip -f archivename
+tar -cvzf archive.tar.gz directory
+
+# extract
+# -x extract -v verbose -f archivename -C directory
+tar -xvf archive.tar.gz -C extracted
+```
+
+## zip && unzip
+
+```sh
+# create
+zip -r archivename.zip directory
+
+# extract
+unzip archivename.zip -d extracted
+```
+
+## Grep everything
+
+```sh
+grep -rni "pandoc" *
+grep -rni "pandoc" ./**/Makefile # in specific file
+
+# or use ripgrep https://github.com/BurntSushi/ripgrep
+```
+
+## systemctl and journalctl
+
+```sh
+SERVICE=service_name.service
+systemctl start $SERVICE
+journalctl -u $SERVICE -f
+```
+
+## Get disk space with `df`
+
+```sh
+df -h
+
+# also know type of partition
+df -Th
+```
+
+> - `-T` : `--print-type`
+> - `-h` : `--human-readable`
+
+## Get size of files with `du` or `dust`
+
+```sh
+cargo install du-dust
+
+dust
+# or
+du -d 1 -h | sort -h
+```
+
+## screen command
+
+```sh
+# start new "infinite" shell - read the manual for more info
+# CTRL + A then "D" to leave
+screen
+
+# list screens shell
+screen -ls
+
+# resume screen shell
+screen -r <screen_id>
+```
+
+Alternatives:
+
+- [https://www.byobu.org/](https://www.byobu.org/)
+- [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
