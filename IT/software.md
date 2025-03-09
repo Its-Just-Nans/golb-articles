@@ -82,6 +82,14 @@ Conf example
   }
 ```
 
+## Apache not forwarding `Authorization` header to PHP
+
+You need to add in your `.htaccess` :
+
+```bash
+CGIPassAuth On
+```
+
 ## webook package
 
 The [webhook package](https://github.com/adnanh/webhook) is a useful utility package which create a server listening on 9000 and allow you to create responses to webhook.
