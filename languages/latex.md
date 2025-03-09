@@ -1,5 +1,7 @@
 # Latex
 
+- See also <https://github.com/typst/typst>
+
 ## Good to know
 
 - Font sizing
