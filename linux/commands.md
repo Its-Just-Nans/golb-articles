@@ -159,15 +159,12 @@ ssh
 ftp
 ```
 
-## Cool commands
+## Shell tricks
 
 ```sh
 !! # last command
-sudo !! # last command as root
-
-mkdir -p /mnt/ram; mount -t tmpfs tmpfs /mnt/ram -o size=4096M # create a ram disk
-
  ls # with a trailing space -> not in history
+
 disown -a && exit # leave terminal but don't kill running processes
 ```
 

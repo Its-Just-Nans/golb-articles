@@ -137,10 +137,19 @@ su -
 
 > <https://manpages.debian.org/stretch/login/su.1.fr.html>
 
+## Sudo usage
+
 Add a user to sudoers
 
 ```sh
 sudo adduser USERNAME sudo
+# then reload session
+```
+
+Launch the last command with sudo
+
+```sh
+sudo !!
 ```
 
 ## Swap
@@ -189,3 +198,10 @@ convert image.png -background white -flatten -alpha off image.jpg
 ```
 
 > Reference <https://stackoverflow.com/a/5280262>
+
+## Fast ram folder
+
+```sh
+mkdir -p /mnt/ram
+mount -t tmpfs tmpfs /mnt/ram -o size=4096M # create a (fast) in-ram folder of 4GB
+```
