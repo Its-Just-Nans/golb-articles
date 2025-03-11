@@ -205,3 +205,14 @@ convert image.png -background white -flatten -alpha off image.jpg
 mkdir -p /mnt/ram
 mount -t tmpfs tmpfs /mnt/ram -o size=4096M # create a (fast) in-ram folder of 4GB
 ```
+
+## Reset root password
+
+```sh
+# reboot and press `e` on grub
+# add `init=/bin/bash` at the end of the line starting with `linux`
+# press `F10` to boot
+mount -no remount,rw /
+passwd
+# enter new password
+```
