@@ -88,3 +88,17 @@ pip config debug
 # location location and config
 pip config -v list
 ```
+
+## Poor man's JSON parser/loader
+
+Can be useful for loading log data that is not properly formatted JSON. Note that this can be unsecure (RTFM).
+
+```python
+import ast
+
+weird_json = """{'a': 1, 'b': "2"}"""
+
+obj = ast.literal_eval(weird_json)
+print(type(obj["a"]), "=", obj["a"])  # <class 'int'> = 1
+print(type(obj["b"]), "=", obj["b"])  # <class 'str'> = 2
+```
