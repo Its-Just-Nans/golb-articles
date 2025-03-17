@@ -168,12 +168,14 @@ sudo swapon /swapfile  # Turn the swap on
 
 > <https://askubuntu.com/a/1177939>
 
-## One-liner favicon.ico generator
+## Oneliner favicon.ico generator
 
 ```sh
 TO_ICONIFY=IMAGE.png
-for i in 48 96 144 192; do convert $TO_ICONIFY -resize ${i}x${i} favicon-${i}x${i}.png; done; convert favicon-* favicon.ico
+for i in 48 96 144 192; do convert -background none $TO_ICONIFY -resize ${i}x${i} favicon-${i}x${i}.png; done; convert -background none favicon-* favicon.ico
 ```
+
+> `-background none` is used to keep the transparency with `png`
 
 ## txt to pdf
 
