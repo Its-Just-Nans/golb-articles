@@ -30,3 +30,5 @@ Also some articles are moved to <https://n4n5.dev/articles/>
         a++;
     }, 1000);
 </script>
+
+<img src="/favicon.png" alt="favicon" width="100" height="100" />
