@@ -1,7 +1,8 @@
-<!--
-Created by Its-Just-Nans - https://github.com/Its-Just-Nans
-Copyright Its-Just-Nans
---->
+---
+title: golb
+description: golb is a static site generator, it renders Markdown files. Maybe you will find them useful.
+keywords: golb, static site generator, markdown, javascript
+---
 
 # Hi
 

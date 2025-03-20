@@ -1,3 +1,9 @@
+---
+title: Computer Science
+description: Computer science concepts and definitions.
+keywords: computer science, operating systems, BIOS, GRUB, application ports, SMTP protocol, DNS, TLD, DNS records, VNC
+---
+
 # Computer Science
 
 ## Operating Systems
