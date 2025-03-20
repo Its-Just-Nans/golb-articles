@@ -1,4 +1,10 @@
-# Optical
+---
+title: Physics
+description: Physics courses
+keywords: physics, courses
+---
+
+## Optical
 
 |                               | Laser                                                  | LED                                                    |
 | ----------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
@@ -11,3 +17,14 @@
 | Randement quantique           | `2*10^-2`                                              | `2*10^-3`                                              |
 
 - [http://www.sosryko.fr/](http://www.sosryko.fr/) - Optics material
+
+## Quantum Mechanics Links
+
+- [Quantum computing for the very curious](https://quantum.country/qcvc)
+- [Quantum states and qubits](https://learn.qiskit.org/course/ch-states/introduction)
+- [Lecture notes! Intro to Quantum Information Science](https://scottaaronson.blog/?p=3943)
+- [https://arxiv.org/pdf/quant-ph/0101098.pdf](https://arxiv.org/pdf/quant-ph/0101098.pdf) - Quantum cryptography
+- <https://www.youtube.com/@RamonaWolf>
+- <https://collapsedwave.com/>
+- <https://www.youtube.com/watch?v=MMzZv9EepAw> - Mécanique quantique
+- [http://www-reynal.ensea.fr/docs/quantum/poly2013.pdf](http://www-reynal.ensea.fr/docs/quantum/poly2013.pdf)

@@ -1,3 +1,9 @@
+---
+title: GPG
+description: GPG commands
+keywords: gpg, encryption, security
+---
+
 # GPG
 
 ```sh

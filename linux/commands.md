@@ -1,3 +1,9 @@
+---
+title: Linux Commands
+description: A list of useful Linux commands
+keywords: linux, commands, shell, terminal
+---
+
 # Commands
 
 <!-- One command per paragraph -->
@@ -256,3 +262,19 @@ Alternatives:
 
 - [https://www.byobu.org/](https://www.byobu.org/)
 - [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
+
+## IPs
+
+Args
+
+- `-c` : colored output
+- `-j` : json output
+- `-j -p` : json indented output
+- `-d` : more information
+
+| Command `net-tools` | Command `iproute2` | Description             |
+| ------------------- | ------------------ | ----------------------- |
+| `ifconfig -a`       | `ip addr`          | Show IP address         |
+| `arp -a`            | `ip neigh`         | Show ARP table          |
+| `route`             | `ip route`         | Show network interfaces |
+| `netstat -g`        | `ip maddress`      | multicast               |

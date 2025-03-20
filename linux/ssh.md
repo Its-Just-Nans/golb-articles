@@ -1,3 +1,9 @@
+---
+title: SSH
+description: SSH commands
+keywords: ssh, security, linux
+---
+
 # SSH
 
 ## Generate a ssh key

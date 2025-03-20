@@ -1,3 +1,9 @@
+---
+title: Rust
+description: Rust programming language
+keywords: rust, programming, language
+---
+
 # Rust
 
 - <https://www.rust-lang.org/>

@@ -1,3 +1,9 @@
+---
+title: Nix
+description: Nix commands
+keywords: nix, linux, package manager
+---
+
 # Nix
 
 - <https://search.nixos.org/packages>
