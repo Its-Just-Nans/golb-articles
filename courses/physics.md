@@ -4,6 +4,8 @@ description: Physics courses
 keywords: physics, courses
 ---
 
+# Physics
+
 ## Optical
 
 |                               | Laser                                                  | LED                                                    |
