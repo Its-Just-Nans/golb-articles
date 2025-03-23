@@ -69,7 +69,7 @@ const data = {
     embeds: [] // for many small messages
 }
 fetch(url, {
-    method : "POST"
+    method : "POST",
     body: data
 });
 // with axios
