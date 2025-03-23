@@ -70,7 +70,10 @@ const data = {
 }
 fetch(url, {
     method : "POST",
-    body: data
+    body: JSON.stringify(data),
+    headers: {
+        "Content-Type": "application/json",
+    },
 });
 // with axios
 // axios.post(url, data);
