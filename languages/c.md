@@ -40,7 +40,7 @@ Le résultat :
 %p *pointerTOnumber = 0x7                //valeur pointée par le pointeur (donc celle de number) sous forme hexa car %p
 ```
 
-> Caption :
+> Caption:
 >
 > - `&` : On peut donc lire "**`l'adresse de`**"
 > - `*` : "**`la valeur pointée par`**"

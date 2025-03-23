@@ -23,7 +23,7 @@ php -S 0.0.0.0:8080
 php -S 0:8080
 ```
 
-> Caption :
+> Caption:
 >
 > `-S <addr>:<port>` :  Run with built-in web server
 

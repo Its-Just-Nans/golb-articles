@@ -53,7 +53,7 @@ mkfs.vfat /dev/sdx1
 dd if=file.iso of=/dev/sdx bs=1M status=progress
 ```
 
-> Legend :
+> Caption:
 >
 > - `if` : input file
 > - `of` : output file here `/dev/sdx`

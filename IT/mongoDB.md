@@ -12,7 +12,7 @@ If you want to change the moogoDB config, for example, the `bindIp`
 net stop mongodb
 ```
 
-> Legend :
+> Caption:
 >
 > - You need to run it as admin
 
@@ -32,6 +32,6 @@ You need to have admin rights to change the config file
 net start mongodb
 ```
 
-> Legend :
+> Caption:
 >
 > - You need to run it as admin
