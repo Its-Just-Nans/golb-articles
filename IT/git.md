@@ -31,8 +31,6 @@ GitHub est un **service web d'hébergement** et de gestion de développement de 
 
 `git branch BRANCH_NAME` : permet de créer une branche
 
-`git shortlog -sn` : Liste les commiters et le nombre de commit
-
 ### Faire une commit
 
 - Aller dans l'onglet `Source Control`
@@ -92,6 +90,12 @@ git config --list --global
 
 # change the config
 git config --global user.name "n4n5"
+```
+
+## Commits stats
+
+```sh
+git shortlog -sn
 ```
 
 ## pre-commit
