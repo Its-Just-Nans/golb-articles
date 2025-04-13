@@ -79,3 +79,21 @@ To increase use ARROW_UP, to decrease use ARROW_DOWN
 ```
 
 - add a `sitemap.xml` to the root of the website
+
+## Google highlight search
+
+We can highlight text in a page with Chrome using a special hash/anchor :
+
+```txt
+#:~:text=
+```
+
+> The hash/anchor isn't stocked in `window.location.hash` !
+
+Example of URL :
+
+```txt
+https://website.com/page#:~:text=text%20to%20highlight%20here
+```
+
+[Example](https://github.com/Its-Just-Nans#:~:text=Hi%20There)

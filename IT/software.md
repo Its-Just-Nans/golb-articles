@@ -157,3 +157,20 @@ exit
 ```
 
 > - [https://cspotcode.com/posts/polyglot-powershell-and-bash-script](https://cspotcode.com/posts/polyglot-powershell-and-bash-script)
+
+## See developer tool of the Discord client
+
+In `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` in `~/.config/discord/settings.json`
+
+- [https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x](https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x/)
+
+## Random links
+
+- [https://www.matematica.pt/fr/utile/formules-math.php](https://www.matematica.pt/fr/utile/formules-math.php)
+- [http://www-igm.univ-mlv.fr/~dr/expose.php](http://www-igm.univ-mlv.fr/~dr/expose.php)
+- [https://web.maths.unsw.edu.au/~lafaye/CCM/](https://web.maths.unsw.edu.au/~lafaye/CCM/)
+- [http://broussaille.free.fr/cours/couleurs/index.htm](http://broussaille.free.fr/cours/couleurs/index.htm) - colors
+- [http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm](http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm)
+- [https://app.senecalearning.com/courses](https://app.senecalearning.com/courses)
+- [CUT101](https://www.youtube.com/watch?v=OAH0MoAv2CI) - Cuts & Transitions 101
+- [Cours techno](https://www.courstechinfo.be/)
