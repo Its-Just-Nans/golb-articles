@@ -24,10 +24,6 @@ In `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` 
 
 - [https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x](https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x/)
 
-## Don't do that
-
-![svg](./data/svg.jpg)
-
 ## Random links
 
 - [https://www.matematica.pt/fr/utile/formules-math.php](https://www.matematica.pt/fr/utile/formules-math.php)

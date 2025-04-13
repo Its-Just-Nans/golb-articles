@@ -8,12 +8,13 @@ keywords: golb, static site generator, markdown, javascript
 
 Welcome to `golb` or simply: `"golb".split("").reverse().join("")`
 
-In reality, this site is more like a knowledge base
+In reality, this site is more like a code knowledge base
 
 Links:
 
 - <https://golb.n4n5.dev/> website
 - <https://github.com/Its-Just-Nans/golb> repo
+- <https://yakb.n4n5.dev/> - for less code and more words
 
 Also some articles are moved to <https://n4n5.dev/articles/>
 
