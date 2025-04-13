@@ -8,9 +8,6 @@ keywords: linux, commands, shell, terminal
 
 <!-- One command per paragraph -->
 
-- [https://github.com/you-dont-need/You-Dont-Need-GUI](https://github.com/you-dont-need/You-Dont-Need-GUI)
-- [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
-
 ## Basic commands
 
 ### create a file

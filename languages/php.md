@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 //code here
 ```
 
-Reference : [stackOverflow](https://stackoverflow.com/questions/1053424/how-do-i-get-php-errors-to-display)
+> Reference : <https://stackoverflow.com/a/21429652>
 
 ## Start a simple PHP local server
 

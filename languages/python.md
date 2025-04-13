@@ -14,7 +14,7 @@ except Exception as exception:
     print(traceback.format_exc())
 ```
 
-Reference : [stackOverflow](https://stackoverflow.com/questions/18176602/how-to-get-the-name-of-an-exception-that-was-caught-in-python)
+> <https://stackoverflow.com/a/18176682>
 
 ## Super easy multiprocess
 

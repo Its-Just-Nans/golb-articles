@@ -10,7 +10,6 @@ keywords: linux, utils, commands
 
 ## Links
 
-- [http://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf](http://www-igm.univ-mlv.fr/~dr/NCS/CS2004.pdf) - cours système
 - Cron helper <https://crontab.guru/>
 
 ## Learn multiplications

@@ -43,7 +43,7 @@ ffmpeg -ss 00:01:00 -i input.mp4 -t 00:02:00 -c copy OUTPUT_NAME.mp4
 > - `00:02:00` : This is the time your trimmed video will end with.
 > - `c copy` : This is an option to trim via stream copy. (NB: Very fast)
 
-[StackOverflow](https://stackoverflow.com/questions/18444194/cutting-the-videos-based-on-start-and-end-time-using-ffmpeg#:~:text=Try%20using%20this.%20It%20is%20the%20fastest%20and%20best%20ffmpeg-way%20I%20have%20figure%20it%20out:)
+<https://stackoverflow.com/a/42827058>
 
 > - ⚠️ `-t` specifies the duration !
 > - The OUTPUT_NAME need to have the same extension as the input file (or ffmpeg will need to re-encode the video)
