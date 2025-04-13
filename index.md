@@ -18,7 +18,7 @@ Links:
 
 Also some articles are moved to <https://n4n5.dev/articles/>
 
-## Information
+## About golb
 
 `golb` is a static site generator, it renders Markdown files. Maybe you will find them useful.
 
