@@ -166,11 +166,10 @@ In `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` 
 
 ## Random links
 
-- [https://www.matematica.pt/fr/utile/formules-math.php](https://www.matematica.pt/fr/utile/formules-math.php)
-- [http://www-igm.univ-mlv.fr/~dr/expose.php](http://www-igm.univ-mlv.fr/~dr/expose.php)
-- [https://web.maths.unsw.edu.au/~lafaye/CCM/](https://web.maths.unsw.edu.au/~lafaye/CCM/)
+- [http://www-igm.univ-mlv.fr/~dr/expose.php](http://www-igm.univ-mlv.fr/~dr/expose.php) - exposé random
+- [https://web.maths.unsw.edu.au/~lafaye/CCM/](https://web.maths.unsw.edu.au/~lafaye/CCM/) - Comment ça marche
 - [http://broussaille.free.fr/cours/couleurs/index.htm](http://broussaille.free.fr/cours/couleurs/index.htm) - colors
 - [http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm](http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm)
-- [https://app.senecalearning.com/courses](https://app.senecalearning.com/courses)
+- [https://app.senecalearning.com/courses](https://app.senecalearning.com/courses) - cours tout niveau
 - [CUT101](https://www.youtube.com/watch?v=OAH0MoAv2CI) - Cuts & Transitions 101
-- [Cours techno](https://www.courstechinfo.be/)
+- [https://www.courstechinfo.be/](https://www.courstechinfo.be/) - cours techn
