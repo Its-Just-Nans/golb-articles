@@ -145,3 +145,15 @@ ngrok http 80
 npx localtunnel --port 8000
 bunx localtunnel --port 8000
 ```
+
+## Polyglot powershell and bash script
+
+```sh
+echo `# <#`
+# bash code
+exit
+#> > $null
+# powershell code
+```
+
+> - [https://cspotcode.com/posts/polyglot-powershell-and-bash-script](https://cspotcode.com/posts/polyglot-powershell-and-bash-script)

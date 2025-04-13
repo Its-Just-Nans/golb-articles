@@ -32,8 +32,6 @@ In `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` 
 - [http://broussaille.free.fr/cours/couleurs/index.htm](http://broussaille.free.fr/cours/couleurs/index.htm) - colors
 - [http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm](http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm)
 - [https://app.senecalearning.com/courses](https://app.senecalearning.com/courses)
-- [http://i3s.unice.fr/~sassatelli/teaching.html](http://i3s.unice.fr/~sassatelli/teaching.html)
-- [http://i3s.unice.fr/~fpayan/teaching.html](http://i3s.unice.fr/~fpayan/teaching.html)
 - [http://users.polytech.unice.fr/~karima/teaching/](http://users.polytech.unice.fr/~karima/teaching/)
 - [CUT101](https://www.youtube.com/watch?v=OAH0MoAv2CI) - Cuts & Transitions 101
 - [Cours techno](https://www.courstechinfo.be/)

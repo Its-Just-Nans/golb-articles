@@ -8,10 +8,6 @@ Dans un repository, on peut mettre des liens vers d'autres repo, puis on clone e
 git submodule update --recursive --init
 ```
 
-## Links
-
-- [https://ohshitgit.com/](https://ohshitgit.com/)
-
 ## Reset history of a repo
 
 ```sh
