@@ -1,25 +1,10 @@
-# Les Commandes SQL
+---
+title: SQL
+description: SQL commands
+keywords: sql, commands
+---
 
-SQL fournit plusieurs commandes permettant de manipuler les données:
-
-- `SELECT` : sélectionner des données issues de la base de données.
-- `INSERT` : ajouter de nouvelles lignes a une table.
-- `UPDATE` : changer des valeurs d'attributs de lignes existantes.
-- `DELETE` : enlever des lignes dans une table.
-
-## Fonctions de calculs
-
-SQL fournit des fonctions de calcul operant sur I'ensemble des valeurs d'une colonne de table. Elle comporte plusieurs parties:
-
-- `COUNT` : nombre de valeurs
-- `SUM` : somme des valeurs
-- `AVG` : moyenne des valeurs
-- `MAX` : plus grande valeur
-- `MIN` : plus petite valeur
-
-On peut faire précéder I'argument du mot cle `DISTINCT` pour indiquer que les valeurs redondantes doivent être éliminées avant application de la fonction.
-
-La fonction spéciale `COUNT` compte toutes les lignes dans une table. Les valeurs nulles ne sont pas prises en compte, sauf pour `COUNT(*)`.
+# SQL
 
 ## MySQL using MariaDB
 
