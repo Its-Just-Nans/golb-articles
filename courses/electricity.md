@@ -1,26 +1,5 @@
 # Electricity
 
-## Diviseur de tension
-
-Les tensions du diviseur sont reliées a la masse et les
-deux résistances R1 et R2 sont connectées en série.
-
-Une tension U est appliquée en entrée sur ces deux résistances et la tension de sortie est mesurée aux bornes de Rg. En utilisant la loi des mailles puis la loi d'Ohm avec les tensions U et U2, il est possible de déduire la relation entre la tension de sortie `U2` et la tension d'entrée `U` : `U = I*(R1+R2)` et `U2 = R2*I`, on peut écrire :
-
-```latex
-U_{2} = \frac{U \cdot R_{2}}{R_{2}+R_{2}}
-```
-
-## Diviseur de courant
-
-La formule du diviseur de courant permet de calculer l'intensité du courant dans une résistance lorsque celle-ci fait partie d'un ensemble de résistances en parallèle et lorsque l'on connaît le courant total qui alimente cet ensemble.
-
-Ainsi, si on prend un noeud simple et 2 branches dont les résistances sont `R1` et `R2`, alors si on note `Y = 1/R` la conductance, on peut écrire :
-
-```latex
-I_{1} = \frac{1 \cdot Y_{1}}{Y_{1}+Y_{2}}
-```
-
 ## Théorème de Millman
 
 Dans un réseau électrique de branches en paralléle, comprenant chacune un générateur de tension parfait en série avec un élément linéaire, la tension aux bornes des branches est égale a la somme des forces électromotrices respectivement multipliées par l'admittance de la branche, le tout divisé par la somme des admittances.
@@ -53,10 +32,6 @@ Méthode pour trouver le générateur de Thévenin :
 ## Théorème de Norton
 
 Tout sous-réseau d'un réseau peut être remplacé par un générateur de courant et une résistance en parallèle avec ce générateur.
-
-## Electricity pic
-
-![Electricity](./data/elec.jpg)
 
 - [http://ahistace.chez-alice.fr/documents/Chapitre1Fondamentaux.pdf](http://ahistace.chez-alice.fr/documents/Chapitre1Fondamentaux.pdf)
 - [http://digital.r2.enst.fr/](http://digital.r2.enst.fr/) - ELECINF simulator
