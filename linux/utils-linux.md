@@ -1,5 +1,6 @@
 ---
 title: Linux utils
+name: utils linux
 description: Linux utils
 keywords: linux, utils, commands
 ---

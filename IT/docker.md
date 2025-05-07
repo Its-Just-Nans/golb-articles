@@ -2,29 +2,29 @@
 
 ## Options
 
-- `-it`: interactive
-
 ```sh
 docker run -it debian
 ```
-
-- `-e`: environnement variable
+>
+> - `-it`: interactive + tty
 
 ```sh
 docker run -e FOO=bar debian
 ```
-
-- `-v`: volume
+>
+> - `-e`: environnement variable
 
 ```sh
 docker run -v $(pwd):/mnt debian
 ```
-
-- `-d`: detached
+>
+> - `-v`: volume
 
 ```sh
-docker run -d  debian
+docker run -d debian
 ```
+>
+> - `-d`: detached
 
 ## Build
 
@@ -56,4 +56,13 @@ to force nginx to run in foreground (and not in background)
 
 ```sh
 docker system prune -a --volumes
+```
+
+## Docker service
+
+```sh
+sudo systemctl restart docker
+# if this doesn't work
+dockerd
+# example: Config at /etc/docker/daemon.json is incorrect
 ```

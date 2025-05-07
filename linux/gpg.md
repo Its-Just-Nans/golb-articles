@@ -1,5 +1,6 @@
 ---
 title: GPG
+name: GPG
 description: GPG commands
 keywords: gpg, encryption, security
 ---

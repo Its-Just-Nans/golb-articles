@@ -1,5 +1,6 @@
 ---
 title: SSH
+name: ssh
 description: SSH commands
 keywords: ssh, security, linux
 ---
