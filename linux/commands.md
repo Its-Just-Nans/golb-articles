@@ -275,3 +275,12 @@ Args
 | `arp -a`            | `ip neigh`         | Show ARP table          |
 | `route`             | `ip route`         | Show network interfaces |
 | `netstat -g`        | `ip maddress`      | multicast               |
+
+## Search path of a command
+
+```sh
+which <command>
+whereis <command>
+type <command>
+command -v <command>
+```
