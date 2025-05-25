@@ -1,5 +1,5 @@
 ---
-name: Go lang
+sidebar_name: Go lang
 ---
 
 # Go

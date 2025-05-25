@@ -1,5 +1,5 @@
 ---
-name: C
+sidebar_name: C
 ---
 
 # C

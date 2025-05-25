@@ -1,5 +1,5 @@
 ---
-name: HTML - CSS
+sidebar_name: HTML - CSS
 ---
 
 # HTML && CSS

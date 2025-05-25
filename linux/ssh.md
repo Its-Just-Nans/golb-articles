@@ -1,11 +1,9 @@
 ---
 title: SSH
-name: ssh
+sidebar_name: ssh
 description: SSH commands
 keywords: ssh, security, linux
 ---
-
-# SSH
 
 ## Generate a ssh key
 

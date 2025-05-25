@@ -1,5 +1,5 @@
 ---
-name: make
+sidebar_name: make
 ---
 
 # make and Makefile

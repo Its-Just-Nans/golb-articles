@@ -1,8 +1,7 @@
 ---
-name: PHP
+title: PHP
+sidebar_name: PHP
 ---
-
-# PHP
 
 ## How to print and get errors
 

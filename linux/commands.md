@@ -1,10 +1,8 @@
 ---
-title: Linux Commands
+title: Commands
 description: A list of useful Linux commands
 keywords: linux, commands, shell, terminal
 ---
-
-# Commands
 
 <!-- One command per paragraph -->
 
@@ -240,6 +238,16 @@ dust
 # or
 du -d 1 -h | sort -h
 ```
+
+## timeout
+
+```sh
+timeout 3 COMMAND
+# in a script
+timeout  --foreground 3 COMMAND
+```
+>
+> check also `--preserve-status` arg
 
 ## screen command
 

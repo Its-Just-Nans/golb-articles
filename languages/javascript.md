@@ -64,7 +64,7 @@ console.log(myVariable2); // "world"
 const url = "https://discord.com/api/webhooks/..."
 const data = {
     content: "my content",
-    username: "log",
+    usersidebar_name: "log",
     avatar_url: "",
     embeds: [] // for many small messages
 }

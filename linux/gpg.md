@@ -1,11 +1,9 @@
 ---
 title: GPG
-name: GPG
+sidebar_name: GPG
 description: GPG commands
 keywords: gpg, encryption, security
 ---
-
-# GPG
 
 ```sh
 gpg --full-generate-key

@@ -1,5 +1,5 @@
 ---
-name: ffmpeg
+sidebar_name: ffmpeg
 ---
 
 # FFMPEG

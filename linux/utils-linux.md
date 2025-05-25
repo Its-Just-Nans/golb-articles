@@ -1,11 +1,9 @@
 ---
 title: Linux utils
-name: utils linux
+sidebar_name: utils linux
 description: Linux utils
 keywords: linux, utils, commands
 ---
-
-# Linux utils
 
 <!-- multiples commands per paragraph -->
 
