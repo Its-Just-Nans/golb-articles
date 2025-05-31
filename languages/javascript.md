@@ -17,10 +17,10 @@ npx http-server
 >
 > - `-g` means `--global`
 > - une option utile est `-p` pour choisir le port du serveur
-> - exemple : `http-server -p 80` pour un serveur web
+> - exemple: `http-server -p 80` pour un serveur web
 > - il y a également d'autres options (voir la documentation)
 
-Reference : [http-server](https://www.npmjs.com/package/http-server)
+Reference: [http-server](https://www.npmjs.com/package/http-server)
 
 ## `npm` && `npx`
 
@@ -69,7 +69,7 @@ const data = {
     embeds: [] // for many small messages
 }
 fetch(url, {
-    method : "POST",
+    method: "POST",
     body: JSON.stringify(data),
     headers: {
         "Content-Type": "application/json",
@@ -93,7 +93,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 ```
 
-## NVM : node version manager
+## NVM: node version manager
 
 - [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 

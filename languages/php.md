@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 //code here
 ```
 
-> Reference : <https://stackoverflow.com/a/21429652>
+> Reference: <https://stackoverflow.com/a/21429652>
 
 ## Start a simple PHP local server
 
@@ -28,7 +28,7 @@ php -S 0:8080
 
 > Caption:
 >
-> `-S <addr>:<port>` :  Run with built-in web server
+> `-S <addr>:<port>`:  Run with built-in web server
 
 ## phpMyAdmin - simple usage
 

@@ -10,8 +10,8 @@ gpg --full-generate-key
 # default
 # 4096 size
 # 0 (do not expire)
-# real name : your-name
-# email : your@mail.com
+# real name: your-name
+# email: your@mail.com
 
 gpg --list-secret-keys --keyid-format=long
 

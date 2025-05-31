@@ -50,9 +50,9 @@ dd if=file.iso of=/dev/sdx bs=1M status=progress
 
 > Caption:
 >
-> - `if` : input file
-> - `of` : output file here `/dev/sdx`
-> - `bs` : block size
+> - `if`: input file
+> - `of`: output file here `/dev/sdx`
+> - `bs`: block size
 
 ## Copy file to clipboard
 

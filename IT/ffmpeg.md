@@ -20,7 +20,7 @@ ffmpeg -i input.mp4 -preset veryslow OUTPUT_NAME.mp4
 
 > Caption:
 >
-> - `-preset veryslow` is the level of compress, see [here](https://trac.ffmpeg.org/wiki/Encode/H.264#:~:text=ultrafast) for others presets
+> - `-preset veryslow` is the level of compress, see [here for others presets](https://trac.ffmpeg.org/wiki/Encode/H.264#:~:text=ultrafast)
 
 ## Zoom in a video
 
@@ -41,11 +41,11 @@ ffmpeg -ss 00:01:00 -i input.mp4 -t 00:02:00 -c copy OUTPUT_NAME.mp4
 ```
 
 > - `-i` :This specifies the input file. In that case, it is (input.mp4)
-> - `ss` : Used with -i, this seeks in the input file (input.mp4) to position.
-> - `00:01:00` : This is the time your trimmed video will start with.
-> - `t` : This specifies duration from start (00:01:40) to end (00:02:12).
-> - `00:02:00` : This is the time your trimmed video will end with.
-> - `c copy` : This is an option to trim via stream copy. (NB: Very fast)
+> - `ss`: Used with -i, this seeks in the input file (input.mp4) to position.
+> - `00:01:00`: This is the time your trimmed video will start with.
+> - `t`: This specifies duration from start (00:01:40) to end (00:02:12).
+> - `00:02:00`: This is the time your trimmed video will end with.
+> - `c copy`: This is an option to trim via stream copy. (NB: Very fast)
 
 <https://stackoverflow.com/a/42827058>
 

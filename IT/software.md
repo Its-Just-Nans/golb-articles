@@ -83,7 +83,7 @@ echo 0 > /sys/module/snd_hda_intel/parameters/power_save
 echo "options snd_hda_intel power_save=0" | sudo tee -a /etc/modprobe.d/audio_disable_powersave.conf # make it persit
 ```
 
-> - Reference : [https://askubuntu.com/a/1230834](https://askubuntu.com/a/1230834)
+> - Reference: [https://askubuntu.com/a/1230834](https://askubuntu.com/a/1230834)
 
 ## nginx configuration
 

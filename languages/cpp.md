@@ -18,7 +18,7 @@ cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug -S . -B $CMAKE_FOLDER
 > - `-D` create or update a CMake CACHE entry
 > - `-S <path>` path to root directory of the CMake project to build
 > - `-B <path>` path to directory which CMake will use as the root of build directory
-> - reference : [https://cmake.org/cmake/help/latest/manual/cmake.1.html](https://cmake.org/cmake/help/latest/manual/cmake.1.html)
+> - reference: [https://cmake.org/cmake/help/latest/manual/cmake.1.html](https://cmake.org/cmake/help/latest/manual/cmake.1.html)
 
 ### Build
 
