@@ -85,6 +85,7 @@ cat a | while read f; do curl -L -b 'cookie=value' -O -J "${f}"; done
 ## iftop
 
 ```sh
+# display bandwidth usage on an interface by host
 sudo iftop -s wlp0
 # change to your interface
 ```

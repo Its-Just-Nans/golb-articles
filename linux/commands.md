@@ -215,8 +215,16 @@ unzip archivename.zip -d extracted
 ```sh
 grep -rni "pandoc" *
 grep -rni "pandoc" ./**/Makefile # in specific file
+```
+>
+> `-r`: recursive
+> `-n`: line number
+> `-r`: ignore  case
 
-# or use ripgrep https://github.com/BurntSushi/ripgrep
+Or use ripgrep <https://github.com/BurntSushi/ripgrep>
+
+```sh
+rg -uu "pandoc"
 ```
 
 ## systemctl and journalctl
