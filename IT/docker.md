@@ -62,7 +62,7 @@ docker system prune -a --volumes
 
 ```sh
 sudo systemctl restart docker
-# if this doesn't work
+# if this doesn't work because of an error
 dockerd
-# example: Config at /etc/docker/daemon.json is incorrect
+# example error: Config at /etc/docker/daemon.json is incorrect
 ```
