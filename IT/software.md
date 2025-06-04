@@ -173,3 +173,9 @@ In `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` 
 - [https://app.senecalearning.com/courses](https://app.senecalearning.com/courses) - cours tout niveau
 - [CUT101](https://www.youtube.com/watch?v=OAH0MoAv2CI) - Cuts & Transitions 101
 - [https://www.courstechinfo.be/](https://www.courstechinfo.be/) - cours techn
+
+## SSH VPN
+
+```sh
+sshuttle --dns -r user@host 0/0 -vvvv -x 0/0:22
+```
