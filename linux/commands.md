@@ -96,14 +96,24 @@ cmd >> FILE
 ```
 
 ```sh
+cmd &> FILE
+
 cmd >& FILE
 ```
 
+> redirect stdout and stderr to FILE
+
 ```sh
-cmd &> FILE
+cmd | cmd2
 ```
 
-> redirect stdout and stderr to FILE
+> The standard output of cmd is connected via a pipe to the standard input of cmd2.
+
+```sh
+cmd |& cmd2
+```
+
+> cmd's standard error, in addition to its standard output, is connected to cmd2's standard input through the pipe
 
 ### Standard input
 

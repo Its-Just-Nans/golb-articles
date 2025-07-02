@@ -143,3 +143,17 @@ int main()
 gcc main.c -o main.out -Wall -ggdb3
 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose --log-file=out.txt ./main.out # you can add args
 ```
+
+## `exec` family functions
+
+- **`execv`**;: Replace the current process with a new program by specifying its full path and arguments; does **not** search `PATH`.
+
+- **`execvp`** Like `execv`, but searches the `PATH` environment variable to find the program by name.
+
+- **`execvpe`**: Like `execvp`, but also lets you specify a custom environment for the new process.
+
+- **`execve`**: Replace the current process with a new program by full path, arguments, and a custom environment; no `PATH` search.
+
+- **`execveat`**: Execute a program relative to a directory file descriptor, with arguments and environment; useful for sandboxed or relative-path execution.
+
+- **`fexecve`**: Execute a program from an open file descriptor, passing arguments and environment; no path lookup needed.
