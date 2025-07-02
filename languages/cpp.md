@@ -33,3 +33,16 @@ cmake --build $CMAKE_FOLDER -j "$(nproc)"
 ## What to use
 
 ![CPP mindmap](./data/HNMy4.png)
+
+## cppcheck
+
+- <https://cppcheck.sourceforge.io/>
+
+```sh
+# install
+sudo apt install cppcheck
+# use it
+cppcheck --enable=style path/to/file.c
+# all checks
+cppcheck --enable=all path/to/file.c
+```
