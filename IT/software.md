@@ -176,6 +176,8 @@ In `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` 
 
 ## SSH VPN
 
+- <https://github.com/sshuttle/sshuttle>
+
 ```sh
 sshuttle --dns -r user@host 0/0 -vvvv -x 0/0:22
 ```
