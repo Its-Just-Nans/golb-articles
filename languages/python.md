@@ -102,3 +102,14 @@ obj = ast.literal_eval(weird_json)
 print(type(obj["a"]), "=", obj["a"])  # <class 'int'> = 1
 print(type(obj["b"]), "=", obj["b"])  # <class 'str'> = 2
 ```
+
+## Break system packages
+
+Get rid of the warning `--break-system-packages`
+
+Edit `~/.config/pip/pip.conf`
+
+```toml
+[global]
+break-system-packages = true
+```
