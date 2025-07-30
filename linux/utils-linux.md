@@ -220,3 +220,23 @@ mount -no remount,rw /
 passwd
 # enter new password
 ```
+
+## Custom host resolution
+
+You will need first need to ensure that the file `/etc/nsswitch.conf` is created
+
+```txt
+# /etc/nsswitch.conf
+
+hosts:          files dns
+networks:       files
+```
+
+Then you can create and use the file `/etc/hosts` to do a custom host resolution
+
+```txt
+# /etc/hosts
+127.0.0.1       localhost
+::1             localhost ip6-localhost ip6-loopback
+192.168.1.45    my_server
+```
