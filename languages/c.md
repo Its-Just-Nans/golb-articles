@@ -157,3 +157,18 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose -
 - **`execveat`**: Execute a program relative to a directory file descriptor, with arguments and environment; useful for sandboxed or relative-path execution.
 
 - **`fexecve`**: Execute a program from an open file descriptor, passing arguments and environment; no path lookup needed.
+
+## system function
+
+```c
+# include <stdlib.h>
+
+int main() {
+    int ret = system("echo 'Hello, World!'");
+    if(ret == -1) {
+        // Failed to execute system command
+    } else if (WIFEXITED(ret) && WEXITSTATUS(ret) != 0) {
+        // error
+    }
+}
+```
