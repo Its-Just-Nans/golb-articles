@@ -10,6 +10,7 @@ keywords: linux, utils, commands
 ## Links
 
 - Cron helper <https://crontab.guru/>
+- <https://www.commandlinefu.com>
 
 ## Learn multiplications
 
@@ -239,4 +240,22 @@ Then you can create and use the file `/etc/hosts` to do a custom host resolution
 127.0.0.1       localhost
 ::1             localhost ip6-localhost ip6-loopback
 192.168.1.45    my_server
+```
+
+## Share files
+
+- <https://www.commandlinefu.com/commands/view/9589/create-a-file-server-listening-in-port-7000>
+
+```sh
+# Create a file server, listening in port 7000
+while true; do nc -l 7000 | tar -xvf -; done
+
+
+# Then, at client side (router)
+
+# Send file myfile to server
+tar c myfile | nc localhost 7000
+
+# Send directory mydir to server
+tar c mydir | nc localhost 7000
 ```
