@@ -1,8 +1,11 @@
-# Git
+---
+title: GIT
+sidebar_name: GIT
+description: GIT commands
+keywords: git, igthub
+---
 
 ## Submodules
-
-Dans un repository, on peut mettre des liens vers d'autres repo, puis on clone en faisant
 
 ```sh
 git submodule update --recursive --init

@@ -1,6 +1,6 @@
 ---
 title: SSH
-sidebar_name: ssh
+sidebar_name: SSH
 description: SSH commands
 keywords: ssh, security, linux
 ---

@@ -43,6 +43,6 @@ def answer(*args):
 # execute
 jupyter nbconvert --log-level ERROR --execute --to notebook --inplace --ClearOutputPreprocessor.enabled=True --ClearMetadataPreprocessor.enabled=True stats.ipynb
 
-# mardown
+# markdown
 jupyter nbconvert --to markdown stats.ipynb --log-level ERROR
 ```

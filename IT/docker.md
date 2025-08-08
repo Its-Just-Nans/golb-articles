@@ -12,7 +12,7 @@ docker run -it debian
 docker run -e FOO=bar debian
 ```
 >
-> - `-e`: environnement variable
+> - `-e`: environment variable
 
 ```sh
 docker run -v $(pwd):/mnt debian
