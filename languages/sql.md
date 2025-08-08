@@ -1,10 +1,9 @@
 ---
 title: SQL
+sidebar_name: SQL
 description: SQL commands
 keywords: sql, commands
 ---
-
-# SQL
 
 ## MySQL using MariaDB
 
