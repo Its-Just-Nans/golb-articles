@@ -139,3 +139,32 @@ function numberSafeParse(input: string): number | null {
 
 // from https://twitter.com/buildsghost/status/1766273406608294298
 ```
+
+## Async pool
+
+In single threaded environments.
+
+```js
+async function processWithPool(items, task, concurrency = 10) {
+    const results = new Array(items.length);
+    let currentIndex = 0;
+
+    async function worker() {
+        while (currentIndex < items.length) {
+            const i = currentIndex++;
+            try {
+                console.log(`Processing item ${i + 1}/${items.length}`);
+                const res = await task(items[i], i);
+                results[i] = { success: true, data: res, item: items[i] };
+            } catch (err) {
+                results[i] = { success: false, data: err, item: items[i] };
+            }
+        }
+    }
+
+    const workers = Array.from({ length: Math.min(concurrency, items.length) }, () => worker());
+
+    await Promise.all(workers);
+    return results;
+}
+```
