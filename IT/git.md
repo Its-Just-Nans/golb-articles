@@ -76,3 +76,15 @@ changeCommitDate() {
   printf 'DAT=$(date --date "%s days ago" -R) GIT_AUTHOR_DATE=$DAT GIT_COMMITTER_DATE=$DAT git commit -m "message"\n' "$VARIABLE"
 }
 ```
+
+## Useful git commands
+
+```sh
+git add -p
+
+git commit -v
+
+git push --force-with-lease
+```
+
+> <https://dimtion.fr/blog/average-engineer-tips/>
