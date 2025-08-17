@@ -259,3 +259,12 @@ tar c myfile | nc localhost 7000
 # Send directory mydir to server
 tar c mydir | nc localhost 7000
 ```
+
+## Create a retro GIF
+
+```sh
+# 10 fps
+# 720 width
+# 100 colors
+ffmpeg -i input.mp4 -vf "fps=10,scale=720:-1:flags=neighbor,split[s0][s1];[s0]palettegen=max_colors=100[p];[s1][p]paletteuse=dither=none" -loop 0 output.gif
+```

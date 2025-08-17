@@ -5,8 +5,6 @@ description: CI/CD stuff
 keywords: ci, cd, continuous integration, continuous deployment
 ---
 
-
-
 ## GitHub Actions Analysis
 
 - <https://github.com/zizmorcore/zizmor>
