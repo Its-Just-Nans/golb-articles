@@ -172,3 +172,15 @@ int main() {
     }
 }
 ```
+
+## `char *star` vs `char table[]`
+
+```c
+// array of char, the stack is filled with {'t','a','b','l','e', '\0'}
+char table[] = "Table";
+// pointer to a static memory
+char *star = "Star";
+
+// that's why you cannot edit star
+star[0] = 's'; // segfault
+```
