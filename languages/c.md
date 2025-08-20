@@ -87,19 +87,19 @@ int main(int argc, char *argv[]){
 
 - `-D DEBUG` : Predefine name as a macro, with definition 1.
 
-- `-E` : Affiche la sortie du préprocesseur
+- `-E` : Displays the output of the preprocessor
 
-- `-g` : Met des points de debug
+- `-g` : Adds debugging information
 
-- `-l` : Mettre une librairie
+- `-l` : Link with a library
 
-- `-v` : Print (on standard error output) the commands executed to run the stages of compilation.
+- `-v` : Print (on standard error output) the commands executed to run the stages of compilation
 
 - `-save-temps` : Store the usual "temporary" intermediate files permanently
 
-- `-c` : Créer des fichiers objets
+- `-c` : Create object files
 
-- `-fno-builtin` : Don't recognize built-in functions that do not begin with __builtin_ as prefix. (see below)
+- `-fno-builtin` : Don't recognize built-in functions that do not begin with `_builtin` as prefix (see below)
 
 ## Note
 
@@ -140,17 +140,17 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose -
 
 ## `exec` family functions
 
-- **`execv`**;: Replace the current process with a new program by specifying its full path and arguments; does **not** search `PATH`.
+- `execv`;: Replace the current process with a new program by specifying its full path and arguments; does not search `PATH`.
 
-- **`execvp`** Like `execv`, but searches the `PATH` environment variable to find the program by name.
+- `execvp` Like `execv`, but searches the `PATH` environment variable to find the program by name.
 
-- **`execvpe`**: Like `execvp`, but also lets you specify a custom environment for the new process.
+- `execvpe`: Like `execvp`, but also lets you specify a custom environment for the new process.
 
-- **`execve`**: Replace the current process with a new program by full path, arguments, and a custom environment; no `PATH` search.
+- `execve`: Replace the current process with a new program by full path, arguments, and a custom environment; no `PATH` search.
 
-- **`execveat`**: Execute a program relative to a directory file descriptor, with arguments and environment; useful for sandboxed or relative-path execution.
+- `execveat`: Execute a program relative to a directory file descriptor, with arguments and environment; useful for sandboxed or relative-path execution.
 
-- **`fexecve`**: Execute a program from an open file descriptor, passing arguments and environment; no path lookup needed.
+- `fexecve`: Execute a program from an open file descriptor, passing arguments and environment; no path lookup needed.
 
 ## system function
 
