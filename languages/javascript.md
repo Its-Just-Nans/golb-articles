@@ -16,9 +16,9 @@ npx http-server
 > Légende :
 >
 > - `-g` means `--global`
-> - une option utile est `-p` pour choisir le port du serveur
-> - exemple: `http-server -p 80` pour un serveur web
-> - il y a également d'autres options (voir la documentation)
+> - A useful option is `-p` to choose the server port
+> - Example: `http-server -p 80` for a web server
+> - There are also other options (see the documentation)
 
 Reference: [http-server](https://www.npmjs.com/package/http-server)
 
