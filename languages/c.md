@@ -27,52 +27,46 @@ int main(){
 }
 ```
 
-> Notez que `%%` est utilisé pour afficher que `%`
+> Note that `%%` is used to print `%`
 
-Le résultat :
+The result:
 
 ```c
-%d number = 7                            //valeur de number sous forme décimale
-%p number = 0x7                          //valeur de number sous forme Hexa car %p
-%d &number = -1104070188                 //valeur de l'adresse de number sous forme décimale
-%p &number = 0x7ffdbe3139d4              //valeur de l'adresse sous forme hexa car %p
-%d pointerTOnumber = -1104070188         //valeur de l'adresse de number sous forme décimale
-%p pointerTOnumber = 0x7ffdbe3139d4      //valeur de l'adresse de number sous forme hexa car %p
-%d &pointerTOnumber = -1104070184        //valeur de l'adresse du pointeur sous forme décimale
-%p &pointerTOnumber = 0x7ffdbe3139d8     //valeur de l'adresse du pointeur sous forme hexa car %p
-%d *pointerTOnumber = 7                  //valeur pointée par le pointeur (donc celle de number) sous forme décimale
-%p *pointerTOnumber = 0x7                //valeur pointée par le pointeur (donc celle de number) sous forme hexa car %p
+%d number = 7                            // value of number in decimal form
+%p number = 0x7                          // value of number in Hex since %p
+%d &number = -1104070188                 // value of the address of number in decimal form
+%p &number = 0x7ffdbe3139d4              // value of the address in Hex since %p
+%d pointerTOnumber = -1104070188         // value of the address of number in decimal form
+%p pointerTOnumber = 0x7ffdbe3139d4      // value of the address of number in Hex since %p
+%d &pointerTOnumber = -1104070184        // value of the address of the pointer in decimal form
+%p &pointerTOnumber = 0x7ffdbe3139d8     // value of the address of the pointer in Hex since %p
+%d *pointerTOnumber = 7                  // value pointed to by the pointer (thus that of number) in decimal form
+%p *pointerTOnumber = 0x7                // value pointed to by the pointer (thus that of number) in Hex since %p
 ```
 
 > Caption:
 >
-> - `&` : On peut donc lire "**`l'adresse de`**"
-> - `*` : "**`la valeur pointée par`**"
-> - Accéder à une valeur avec `*` s'appelle un déréférencement
-
----
+> - `&` : Can be read as `the address of`
+> - `*` : `the value pointed to by`
+> - Accessing a value with `*` is called dereferencing
 
 ## Compilation
 
-| Entrée |       Nom       | Sortie |
-| :----: | :-------------: | :----: |
-|  `.c`  |  Préprocesseur  |  `.i`  |
-|  `.i`  |   Compilateur   |  `.s`  |
-|  `.s`  |   Assembleur    |  `.o`  |
-|  `.o`  | Éditeur de lien | `.out` |
+| Input |     Name      | Output |
+| :---: | :-----------: | :----: |
+| `.c`  | Preprocessor  |  `.i`  |
+| `.i`  |   Compiler    |  `.s`  |
+| `.s`  |   Assembler   |  `.o`  |
+| `.o`  | Linker/Loader | `.out` |
 
----
+## Vocabulary
 
-## Vocabulaire
+- A `function` returns a value
+- A `procedure` takes a pointer as an argument and fills the pointer
 
-- Une `fonction` renvoie une valeur
-- Une `procédure` prend en argument un pointeur et remplit le pointeur
+## `main` Parameters in C
 
----
-
-## Paramètre de main en C
-
-`argv[0]` contiendra tout le temps le nom du programme
+`argv[0]` will always contain the name of the program
 
 ```c
 int main(int argc, char *argv[]){

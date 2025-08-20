@@ -172,7 +172,7 @@ In `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` 
 - [http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm](http://deptinfo.cnam.fr/Enseignement/Memoires/LUSTEAU.Franck/Pages/Les_codages.htm)
 - [https://app.senecalearning.com/courses](https://app.senecalearning.com/courses) - cours tout niveau
 - [CUT101](https://www.youtube.com/watch?v=OAH0MoAv2CI) - Cuts & Transitions 101
-- [https://www.courstechinfo.be/](https://www.courstechinfo.be/) - cours techno
+- [https://www.courstechinfo.be/](https://www.courstechinfo.be/) - technonoly courses
 
 ## SSH VPN
 
