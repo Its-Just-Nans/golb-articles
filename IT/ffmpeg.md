@@ -77,3 +77,20 @@ ffmpeg -i input.mp4 -vn -acodec copy output-audio.mp3
 ```
 
 > - from <https://stackoverflow.com/a/27413824>
+
+## Convert video to GIF
+
+```sh
+ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 output.gif
+```
+
+> - from <https://superuser.com/a/556031>
+
+## Create a retro GIF
+
+```sh
+# 10 fps
+# 720 width
+# 100 colors
+ffmpeg -i input.mp4 -vf "fps=10,scale=720:-1:flags=neighbor,split[s0][s1];[s0]palettegen=max_colors=100[p];[s1][p]paletteuse=dither=none" -loop 0 output.gif
+```
