@@ -4,9 +4,11 @@ description: Rust programming language
 keywords: rust, programming, language
 ---
 
-# Rust
-
 - <https://www.rust-lang.org/>
+
+## Install
+
+- <https://rustup.rs/>
 
 ## Guides
 

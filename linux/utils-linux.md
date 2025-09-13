@@ -259,3 +259,11 @@ tar c myfile | nc localhost 7000
 # Send directory mydir to server
 tar c mydir | nc localhost 7000
 ```
+
+## Get network packets
+
+```sh
+sudo tcpdump -i any
+```
+
+> <https://www.youtube.com/watch?v=hWc-ddF5g1I>
