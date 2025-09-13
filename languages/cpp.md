@@ -1,8 +1,7 @@
 ---
+title: C++
 sidebar_name: C++
 ---
-
-# C++
 
 ## `cmake`
 

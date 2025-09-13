@@ -1,8 +1,7 @@
 ---
+title: make and Makefile
 sidebar_name: make
 ---
-
-# make and Makefile
 
 - <https://makefiletutorial.com/>
 

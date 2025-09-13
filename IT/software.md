@@ -1,4 +1,6 @@
-# Software
+---
+title: Software
+---
 
 <!-- commands related to specific 'no-default' package -->
 

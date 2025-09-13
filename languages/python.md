@@ -1,4 +1,6 @@
-# Python
+---
+title: Python
+---
 
 ## How to print the error name
 

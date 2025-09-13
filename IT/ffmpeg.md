@@ -1,8 +1,7 @@
 ---
+title: FFMPEG
 sidebar_name: ffmpeg
 ---
-
-# FFMPEG
 
 ## Download
 

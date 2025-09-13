@@ -1,4 +1,8 @@
-# Decompile an app
+---
+title: Android
+---
+
+## Decompile an app
 
 Moved to <https://n4n5.dev/articles/work-with-apk/>
 
