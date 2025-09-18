@@ -88,3 +88,10 @@ git push --force-with-lease
 ```
 
 > <https://dimtion.fr/blog/average-engineer-tips/>
+
+## Rebase
+
+```sh
+GIT_EDITOR=vi git rebase -i HEAD~10
+```
+
