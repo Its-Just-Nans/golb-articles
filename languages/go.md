@@ -1,8 +1,7 @@
 ---
+title: Go
 sidebar_name: Go lang
 ---
-
-# Go
 
 ## Mirai botnet (Go + C) in a docker compose
 

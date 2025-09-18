@@ -1,4 +1,6 @@
-# Latex
+---
+title: Latex
+---
 
 - See also <https://github.com/typst/typst>
 

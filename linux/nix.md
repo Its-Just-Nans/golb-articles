@@ -4,8 +4,6 @@ description: Nix commands
 keywords: nix, linux, package manager
 ---
 
-# Nix
-
 - <https://search.nixos.org/packages>
 
 ## Current channel
@@ -23,8 +21,8 @@ nix-env --uninstall <package>
 ## Update all
 
 ```sh
-nix-channel --update
-nix-env -u '*'
+nix-channel --update -vv
+nix-env -u '*' -v
 ```
 
 ## Clean store
