@@ -267,3 +267,12 @@ sudo tcpdump -i any
 ```
 
 > <https://www.youtube.com/watch?v=hWc-ddF5g1I>
+
+## Check links in file
+
+```sh
+grep -oP '(http|https)://[^<"]+' rss.xml | uniq | xargs -n1 lychee -vv
+# or without -n1
+```
+
+> <https://github.com/lycheeverse/lychee/>
