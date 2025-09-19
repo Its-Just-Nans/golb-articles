@@ -4,8 +4,9 @@ sidebar_name: make
 ---
 
 - <https://makefiletutorial.com/>
+- If you use `make` for task automation, check <https://github.com/jdx/mise>
 
-## Example
+## Example with task
 
 ```Makefile
 ARGS=-O3
@@ -19,7 +20,9 @@ test:
     ./main.out
 ```
 
-## Usage
+> Note: this is an example for tasks. `make` is not really used like that
+
+## Task usage
 
 ```sh
 make
@@ -27,8 +30,10 @@ make
 
 make all
 # will do first "make build" then "make test"
+
 make build
 # will do the zig compilation
+
 make test
 # will launch the program
 ```
