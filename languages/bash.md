@@ -73,3 +73,24 @@ CMD_1 || CMD_2
 
 disown -a && exit # leave terminal but don't kill running processes
 ```
+
+## Basic command completion
+
+```sh
+_my_cmd(){
+    local cur opts
+    # Current word being completed
+    cur="${COMP_WORDS[COMP_CWORD]}"
+
+    # The words you want to complete
+    opts='run copy $(ls)' # or however you want to list them
+
+    # Fill COMPREPLY with matches
+    COMPREPLY=( $(compgen -W "${opts}" -- "$cur") )
+}
+
+# some completion for my_cmd
+if [[ -v BASH_VERSINFO && "$BASH" == */bash ]]; then
+    complete -F _my_cmd my_cmd
+fi
+```
